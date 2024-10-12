@@ -4,8 +4,9 @@
     android:layout_height="match_parent"
     android:background="@drawable/img_fondo"
     android:orientation="vertical">
+
     <Button
-        android:id="@+id/buttonBack2"
+        android:id="@+id/buttonBack4"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
@@ -15,11 +16,21 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:layout_marginTop="60dp"
-        android:text="Inscripción"
+        android:text="Editar datos"
         android:textColor="@color/white"
         android:textSize="40sp"
+        android:layout_marginBottom="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="103dp"
+        android:text="ID:"
+        android:textColor="@color/white"
+        android:textSize="25sp"
         android:layout_marginBottom="50dp"/>
 
     <EditText
@@ -72,7 +83,7 @@
         android:textSize="20sp"
         android:textColor="@color/white"
         android:buttonTint="@color/white"
-        android:layout_marginBottom="50dp"
+        android:layout_marginBottom="25dp"
         android:layout_marginLeft="58dp"
         android:layout_gravity="left"/>
 
@@ -83,7 +94,7 @@
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Registrar"
+        android:text="Editar"
         android:textSize="30sp"
         android:background="#3F51B5"
         android:textColor="@color/white"/>
