@@ -10,20 +10,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="100dp"
-        android:layout_marginBottom="150dp"
+        android:layout_marginBottom="80dp"
         android:text="Vencimiento de Cuotas"
         android:textSize="30dp"
         android:textColor="@color/white"
         android:layout_gravity="center"
         />
-
-
+    
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="350dp"
-        android:layout_height="200dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
         android:background="@color/white"
-        android:layout_marginBottom="200dp"
+        android:layout_marginBottom="125dp"
         />
 
     <Button
@@ -33,6 +32,7 @@
         android:layout_gravity="center"
         android:background="#2D5198"
         android:textSize="30sp"
+        android:textColor="@color/white"
         android:text="Inicio"
         />
 
