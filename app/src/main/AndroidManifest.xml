@@ -50,9 +50,8 @@
             android:name=".ErrorDNI"
             android:exported="false" />
         <activity
-            android:name=".MainMenu"
->>>>>>> origin/pantallas
-            android:exported="false" />
+            android:name=".MainMenu" />
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
