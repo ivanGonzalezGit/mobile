@@ -26,7 +26,7 @@
         android:background="@drawable/rounded_corner_2"
         android:layout_marginBottom="50dp"
         android:hint="Usuario"
-
+        android:gravity="center"
         />
 
     <EditText
@@ -40,7 +40,7 @@
         android:layout_gravity="center"
         android:textSize="20sp"
         android:hint="Contraseña"
-
+        android:gravity="center"
         />
 
     <Button
