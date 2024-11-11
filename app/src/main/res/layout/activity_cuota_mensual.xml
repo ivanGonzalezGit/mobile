@@ -6,84 +6,48 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/buttonBack6"
+        android:id="@+id/btnBack"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
+        android:layout_marginBottom="75dp"
         android:text="Back"
-        android:layout_gravity="top"/>
+        android:layout_gravity="start"/>
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="70dp"
-        android:orientation="vertical"
-        android:gravity="center">
+    <Button
+        android:id="@+id/btnAgregarCuotaMensual"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="75dp"
+        android:text="Agregar Cuota Mensual"
+        android:textSize="25sp"
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Pagar cuota mensual"
-            android:textColor="@color/white"
-            android:textSize="40sp"
-            android:layout_marginBottom="50dp"/>
+    <Button
+        android:id="@+id/btnPagarCuotaMensual"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="75dp"
+        android:text="Pagar Cuota mensual"
+        android:textSize="25sp"
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
 
-        <EditText
-            android:id="@+id/edtDNICuotaMensual"
-            android:layout_width="290dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:inputType="text"
-            android:textSize="20sp"
-            android:backgroundTint="#D9D9D9"
-            android:background="@drawable/rounded_corner_2"
-            android:layout_marginBottom="50dp"
-            android:hint="D.N.I."
-
-            />
-
-        <EditText
-            android:id="@+id/edtPagoCuotaMensual"
-            android:layout_width="290dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:inputType="text"
-            android:textSize="20sp"
-            android:backgroundTint="#D9D9D9"
-            android:background="@drawable/rounded_corner_2"
-            android:layout_marginBottom="50dp"
-            android:hint="Precio a pagar"
-
-            />
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
-        android:orientation="horizontal"
-        android:gravity="center">
-
-        <Button
-            android:id="@+id/buttonEfectivoCuotaMensual"
-            android:layout_width="125dp"
-            android:layout_height="125dp"
-            android:layout_marginRight="25dp"
-            android:background="@drawable/rounded_corner_2"
-            android:backgroundTint="@color/black"
-            android:text="Efectivo"
-            android:textColor="@color/white"/>
-        <Button
-            android:id="@+id/buttonTarjetaCuontaMensual"
-            android:layout_width="125dp"
-            android:layout_height="125dp"
-            android:background="@drawable/rounded_corner_2"
-            android:backgroundTint="@color/black"
-            android:text="Tarjeta"
-            android:textColor="@color/white"/>
-
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnVencimientos"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="75dp"
+        android:text="Vencimientos"
+        android:textSize="25sp"
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner"
+        android:textColor="@color/black"
+        android:layout_gravity="center"/>
 
 </LinearLayout>

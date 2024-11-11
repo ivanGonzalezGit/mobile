@@ -5,7 +5,7 @@
     android:background="@drawable/img_fondo"
     android:orientation="vertical">
     <Button
-        android:id="@+id/buttonBack2"
+        android:id="@+id/btnBack2"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
@@ -57,7 +57,7 @@
         android:layout_marginBottom="20dp"
         android:backgroundTint="#D9D9D9"
         android:background="@drawable/rounded_corner_2"
-        android:inputType="textPassword"
+        android:inputType="numberDecimal"
         android:layout_gravity="center"
         android:textSize="20sp"
         android:hint="D.N.I."
@@ -79,7 +79,7 @@
 
 
     <Button
-        android:id="@+id/buttonRegistrar"
+        android:id="@+id/btnRegistrar"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"

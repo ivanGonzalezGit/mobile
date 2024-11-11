@@ -8,7 +8,7 @@
 
 
     <Button
-        android:id="@+id/buttonInscribirPostulante"
+        android:id="@+id/btnInscribirPostulante"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
@@ -20,7 +20,7 @@
         />
 
     <Button
-        android:id="@+id/buttonEditarDatos"
+        android:id="@+id/btnEditarDatos"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
@@ -31,40 +31,30 @@
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/buttonPagoCuotaDiaria"
+        android:id="@+id/btnActividadDiaria"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
-        android:text="Pago de cuota diaria"
+        android:text="Actividad Diaria"
         android:textSize="25sp"
         android:backgroundTint="#D9D9D9"
         android:background="@drawable/rounded_corner"
         android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/buttonPagoCuotaMensual"
+        android:id="@+id/btnCuotaMensual"
         android:layout_width="350dp"
         android:layout_height="60dp"
         android:layout_marginBottom="50dp"
-        android:text="Pago de cuota mensual"
+        android:text="Cuota mensual"
         android:textSize="25sp"
         android:backgroundTint="#D9D9D9"
         android:background="@drawable/rounded_corner"
         android:textColor="@color/black"/>
 
-    <Button
-        android:id="@+id/buttonVencimientos"
-        android:layout_width="350dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="50dp"
-        android:text="Vencimientos"
-        android:textSize="25sp"
-        android:backgroundTint="#D9D9D9"
-        android:background="@drawable/rounded_corner"
-        android:textColor="@color/black"/>
 
     <Button
-        android:id="@+id/buttonCerrarSesion"
+        android:id="@+id/btnCerrarSesion"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:text="Cerrar Sesion"

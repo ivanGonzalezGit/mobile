@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/buttonBack3"
+        android:id="@+id/btnBack3"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
@@ -28,7 +28,7 @@
         android:layout_width="290dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:inputType="text"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
         android:backgroundTint="#D9D9D9"
         android:background="@drawable/rounded_corner_2"
@@ -38,7 +38,7 @@
         />
 
     <Button
-        android:id="@+id/buttonContinuar"
+        android:id="@+id/btnContinuar"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:text="Continuar"

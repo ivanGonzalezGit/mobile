@@ -16,57 +16,42 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="10dp"
         android:orientation="vertical"
         android:gravity="center">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Pagar actividad diaria"
+            android:text="Pagar cuota mensual"
             android:textColor="@color/white"
-            android:textSize="35sp"
-            android:layout_marginBottom="50dp"/>
+            android:textSize="30sp"
+            android:layout_marginBottom="25dp"/>
 
         <EditText
             android:id="@+id/edtDNI"
             android:layout_width="290dp"
-            android:layout_height="55dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
-            android:inputType="text"
+            android:inputType="numberDecimal"
             android:textSize="20sp"
             android:backgroundTint="#D9D9D9"
             android:background="@drawable/rounded_corner_2"
-            android:layout_marginBottom="50dp"
+            android:layout_marginBottom="25dp"
             android:hint="D.N.I."
 
             />
 
-        <EditText
-            android:id="@+id/edtActividad"
-            android:layout_width="290dp"
-            android:layout_height="55dp"
+        <Button
+            android:id="@+id/btnBuscar"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_gravity="center"
-            android:inputType="text"
             android:textSize="20sp"
+            android:text="Buscar"
             android:backgroundTint="#D9D9D9"
             android:background="@drawable/rounded_corner_2"
-            android:layout_marginBottom="50dp"
-            android:hint="Actividad"
-
-            />
-
-        <EditText
-            android:id="@+id/edtMonto"
-            android:layout_width="290dp"
-            android:layout_height="55dp"
-            android:layout_gravity="center"
-            android:inputType="text"
-            android:textSize="20sp"
-            android:backgroundTint="#D9D9D9"
-            android:background="@drawable/rounded_corner_2"
-            android:layout_marginBottom="50dp"
-            android:hint="Monto a pagar"
+            android:layout_marginBottom="10dp"
 
             />
 
@@ -74,8 +59,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ListView
+            android:id="@+id/lvCuotas"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#D9D9D9"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="60dp"
+        android:layout_marginTop="10dp"
         android:orientation="horizontal"
         android:gravity="center">
 
