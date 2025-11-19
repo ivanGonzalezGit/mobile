@@ -4,9 +4,8 @@
     android:layout_height="match_parent"
     android:background="@drawable/img_fondo"
     android:orientation="vertical">
-
     <Button
-        android:id="@+id/btnBack4"
+        android:id="@+id/btnBack"
         android:layout_width="60dp"
         android:layout_height="48dp"
         android:layout_marginTop="15dp"
@@ -16,86 +15,61 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
         android:layout_gravity="center"
-        android:text="Editar datos"
+        android:layout_marginTop="60dp"
+        android:text="Agregar Cuota"
         android:textColor="@color/white"
         android:textSize="40sp"
-        android:layout_marginBottom="25dp"/>
-
-    <TextView
-        android:id="@+id/txtID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="left"
-        android:layout_marginLeft="103dp"
-        android:text="ID:"
-        android:textColor="@color/white"
-        android:textSize="25sp"
         android:layout_marginBottom="50dp"/>
 
     <EditText
-        android:id="@+id/edtNombre"
+        android:id="@+id/edtDni"
         android:layout_width="290dp"
         android:layout_height="55dp"
         android:layout_gravity="center"
-        android:inputType="text"
-        android:textSize="20sp"
-        android:backgroundTint="#D9D9D9"
-        android:background="@drawable/rounded_corner_2"
-        android:layout_marginBottom="50dp"
-        android:hint="Nombre"
-
-        />
-
-    <EditText
-        android:id="@+id/edtApellido"
-        android:layout_width="290dp"
-        android:layout_height="55dp"
-        android:layout_gravity="center"
-        android:inputType="text"
-        android:textSize="20sp"
-        android:backgroundTint="#D9D9D9"
-        android:background="@drawable/rounded_corner_2"
-        android:layout_marginBottom="50dp"
-        android:hint="Apellido"
-
-        />
-
-    <EditText
-        android:id="@+id/edtDNI"
-        android:layout_width="290dp"
-        android:layout_height="55dp"
-        android:layout_marginBottom="20dp"
-        android:backgroundTint="#D9D9D9"
-        android:background="@drawable/rounded_corner_2"
         android:inputType="numberDecimal"
-        android:layout_gravity="center"
         android:textSize="20sp"
-        android:hint="D.N.I."
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner_2"
+        android:layout_marginBottom="50dp"
+        android:hint="DNI"
 
         />
 
-    <RadioButton
-        android:id="@+id/rdbAptoFisico"
-        android:layout_width="wrap_content"
-        android:layout_height="50dp"
-        android:text="Apto Fisico"
+    <EditText
+        android:id="@+id/edtMonto"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:inputType="numberDecimal"
         android:textSize="20sp"
-        android:textColor="@color/white"
-        android:buttonTint="@color/white"
-        android:layout_marginBottom="25dp"
-        android:layout_marginLeft="58dp"
-        android:layout_gravity="left"/>
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner_2"
+        android:layout_marginBottom="50dp"
+        android:hint="Monto"
 
+        />
 
+    <EditText
+        android:id="@+id/edtVencimiento"
+        android:layout_width="290dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="75dp"
+        android:backgroundTint="#D9D9D9"
+        android:background="@drawable/rounded_corner_2"
+        android:inputType="date"
+        android:layout_gravity="center"
+        android:textSize="20sp"
+        android:hint="Vencimiento (dd-mm-aaaa)"
+
+        />
 
     <Button
-        android:id="@+id/btnEditar"
+        android:id="@+id/btnAgregar"
         android:layout_width="310dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Editar"
+        android:text="Agregar"
         android:textSize="30sp"
         android:background="#3F51B5"
         android:textColor="@color/white"/>
